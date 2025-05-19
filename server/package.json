@@ -1,5 +1,5 @@
 {
-  "name": "items-management",
+  "name": "items-management-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
