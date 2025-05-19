@@ -62,7 +62,7 @@ export const getColumns = (refreshData) => [
             <DropdownMenuSeparator />
             <Dialog>
               <DialogTrigger asChild>
-                <DropdownMenuItem onSelect={(e) => e.preventDefault()}>Edit</DropdownMenuItem>
+                <DropdownMenuItem onSelect={(event) => event.preventDefault()}>Edit</DropdownMenuItem>
               </DialogTrigger>
               <ItemDialog item={item} isEditing={true} onSuccess={refreshData} />
             </Dialog>
