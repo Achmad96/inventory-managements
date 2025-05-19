@@ -15,7 +15,7 @@ const getItemsQuery = async (id) => {
   }
   const items = results.map((item) => ({
     id: item.id,
-    nama: item.name,
+    name: item.name,
     quantity: item.quantity,
     description: item.description,
     price: item.price,
