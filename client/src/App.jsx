@@ -42,7 +42,7 @@ function App() {
         <ModeToggle />
       </nav>
       <Toaster position="bottom-right" richColors />
-      <main className="container mx-auto p-52">
+      <main className="container mx-auto lg:p-52 md:p-3">
         <div className="mb-4">
           <h1 className="text-2xl font-bold">Items</h1>
         </div>
